@@ -1,49 +1,148 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-.top-section {
-    background-color: #1F2937;
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 
 .logo {
+    display: flex;
     color: #F9FAF8;
-    font: 24px;
+    font-size: 24px;
+    align-items: center;
 }
 
 .header-links {
+    display: flex;
     font: 18px; 
-    color: #F9FAF8;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 10px 100px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 10px 100px;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.placeholder {
+    display: block;
+    color: #E5E7EB;
+    text-align: center;
+    background-color: gray;
+    height: 100px;
+    width: 400px;
+
+}
+
+.top-button {
+    display: flex;
+
+    height:25px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-maintext {
-    font: 48;
+    font-size: 48;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .hero-subtext{
-    font: 18px;
+    font-size: 18px;
     color: #E5E7EB;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex: 1;
+}
+
+
+.mid-section {
+    text-align: center;
+    padding: 10px 100px;
+
+}
+.mid-container {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 0px 100px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px 100px;
+    color: #E5E7EB;
+    justify-content: space-evenly;
+
 }
 
 button {
     display: flex;
     background-color: #3882F6;
     border: 1px #E5E7EB;
+    color:#E5E7EB;
     align-items: center;
-    align-content: center;
-}
-
-.quote-section {
-    background-color: #E5E7EB;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    font: 18px; 
+    font-size: 18px; 
     color: #E5E7EB;
-
 }
