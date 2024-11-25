@@ -32,7 +32,8 @@ a {
 .header-links {
     display: flex;
     font: 18px; 
-    gap: 10px;
+    gap: 15px;
+    opacity: .5;
     justify-content: flex-end;
 }
 
@@ -50,7 +51,6 @@ a {
     padding: 10px 100px;
     gap: 100px;
     align-items: center;
-
 }
 
 .hero-text {
@@ -60,22 +60,12 @@ a {
 }
 
 .placeholder {
-    display: block;
-    color: #E5E7EB;
     text-align: center;
+    color: #E5E7EB;
     background-color: gray;
-    height: 100px;
-    width: 400px;
-
-}
-
-.top-button {
-    display: flex;
-
-    height:25px;
-    width: 80px;
-    align-items: center;
-    justify-content: center;
+    border: #1F2937;
+    width: 700px;
+    height: 150px;
 }
 
 .hero-maintext {
@@ -89,37 +79,51 @@ a {
     color: #E5E7EB;
 }
 
-.bottom {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    flex: 1;
-}
-
-
 .mid-section {
     text-align: center;
     padding: 10px 100px;
+    display: flex;
 
 }
 .mid-container {
     display: flex;
-    justify-content:space-evenly;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+    width: fit-content;
+
 }
 
+img {
+    border: #3882F6 solid;border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+
 .quote-section {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    padding: 0px 100px;
+    padding: 100px 200px;
 }
 
 .quote {
     font-style: italic;
+    font-weight: 50;
     font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 0;
 }
 
 .author {
     display: flex;
-    justify-content: end;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+
+
 }
 
 .sign-up {
@@ -128,15 +132,23 @@ a {
     margin: 80px 100px;
     color: #E5E7EB;
     justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px;
 
 }
 
 button {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
     border: 1px #E5E7EB;
     color:#E5E7EB;
     align-items: center;
+    border-radius: 5px;
+    height: fit-content;
+    width: 80px;
 }
 
 .footer {
@@ -145,4 +157,8 @@ button {
     background-color: #1F2937;
     font-size: 18px; 
     color: #E5E7EB;
+}
+
+.button-bottom {
+    border:#E5E7EB solid;
 }
